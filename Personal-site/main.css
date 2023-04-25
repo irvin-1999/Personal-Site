@@ -1,0 +1,10 @@
+:root{
+    --header-or-footer: #66BFBF;
+    --body-or-content: #EAf6f6;
+    --other-content: #FCFEFE;
+}
+
+body{
+    margin: 0;
+    background-color: var(--header-or-footer);
+}
