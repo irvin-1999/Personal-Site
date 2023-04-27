@@ -31,7 +31,7 @@ p{
     color: #8f8f8f;
 }
 .container-fluid{
-    padding: 3% 15% !important;
+    padding: 3% 15% 7% !important;
 }
 
 /* Navigation Bar */
@@ -67,8 +67,9 @@ p{
 
 /* Tittle Image */
 .col-lg-6 img{
-    width: 55%;
+    width: 20%;
     transform: rotateZ(25deg);
+    position: absolute;
 }
 
 /* FEATURES SECTION */
@@ -76,6 +77,9 @@ p{
 
 #features{
     padding: 7% 15%;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
 }
 
 .feature-box {
@@ -127,4 +131,52 @@ p{
 
 #pricing{
     padding: 6.25rem;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+    color: #ffffff;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta--heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#cta button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social--icon{
+    margin:.65rem;
+}
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    
+    .col-lg-6 img{
+        width: 50%;
+        position: static;
+        transform: rotate(0);
+    }
 }
