@@ -25,10 +25,20 @@ p{
     line-height: 1.5;
 }
 
+/* Containers */
 .container-fluid{
     padding: 7% 15% ;
 }
 
+/* Sections */
+.colored-section{
+    color: #ffffff ;
+    background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
 
 /* Navigation Bar */
 
@@ -62,10 +72,6 @@ p{
 }
 
 /* Title section */
-#title{
-    color: #ffffff !important;
-    background-color: #ff4c68;
-}
 
 #title .container-fluid{
     padding: 3% 15% 7%;
@@ -82,7 +88,6 @@ p{
 
 
 #features{
-    background-color: #ffffff;
     z-index: 1;
     position: relative;
 }
@@ -109,8 +114,6 @@ p{
 
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
-    color: #ffffff;
 }
 
 #testimonials img{
@@ -129,7 +132,6 @@ p{
 /* PRESS SECTION */
 
 #press{
-    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -158,9 +160,6 @@ p{
 /* Call to Action Section */
 
 #cta{
-    color: #ffffff;
-    padding: 7% 15%;
-    background-color: #ff4c68;
     text-align: center;
 }
 
